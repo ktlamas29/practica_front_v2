@@ -194,67 +194,55 @@
 /*          Función que convierte pixeles en rem       */
 body {
   font-family: "montserratRegular-400";
-  background: #000000 !important;
+  background: #000000;
 }
 
 h1 {
-  color: #A6242F !important;
-  font-family: "montserratSemiBold-600" !important;
-  font-size: 1.75rem !important;
+  color: #A6242F;
+  font-family: "montserratSemiBold-600";
+  font-size: 1.75rem;
 }
 
 h2 {
-  font-size: 1.5rem !important;
+  font-size: 1.5rem;
 }
 
 p {
-  color: #ffffff !important;
-  font-size: 1rem !important;
-  font-family: "loraRegular-400" !important;
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: "loraRegular-400";
 }
 
 a {
-  text-decoration: none !important;
-  font-size: 0.875rem !important;
-  color: #ffffff !important;
+  text-decoration: none;
+  font-size: 0.875rem;
+  color: #ffffff;
 }
 
 ul {
-  padding: 0 !important;
-  margin: 0 !important;
+  padding: 0;
+  margin: 0;
 }
 
 li {
-  list-style: none !important;
+  list-style: none;
 }
 
 .link-btn {
   background: #A6242F;
-  /*             */
-  width: 120px !important;
   text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-radius: 7px;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   -ms-border-radius: 7px;
   -o-border-radius: 7px;
-}
-.link-btn a {
   padding: 10px;
 }
 
 .btn-inhabi {
-  width: 120px !important;
-  height: 40px;
   text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background: #404040;
-  margin-top: 8px;
+  padding: 10px;
   border-radius: 7px;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
@@ -263,7 +251,7 @@ li {
 }
 
 h1 {
-  color: #A6242F !important;
+  color: #A6242F;
   font-family: "montserratBold";
 }
 

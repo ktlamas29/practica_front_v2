@@ -1,69 +1,58 @@
 body {
   font-family: $montserratRegular-400;
-  background: $negro !important;
+  background: $negro ;
 }
 
 h1 {
-  color: $rojo !important;
-  font-family: $montserratSemiBold-600 !important;
-  font-size: $font-28 !important;
+  color: $rojo ;
+  font-family: $montserratSemiBold-600 ;
+  font-size: $font-28 ;
 }
 
 h2 {
-  font-size: $font-24 !important;
+  font-size: $font-24 ;
 }
 
 p {
-  color: $blanco !important;
-  font-size: $font-16 !important;
-  font-family: $loraRegular-400 !important;
+  color: $blanco;
+  font-size: $font-16;
+  font-family: $loraRegular-400;
 }
 
 a {
-  text-decoration: none !important;
-  font-size: $font-14 !important;
-  color: $blanco !important;
+  text-decoration: none ;
+  font-size: $font-14 ;
+  color: $blanco ;
 }
 
 ul {
-  padding: 0 !important;
-  margin: 0 !important;
+  padding: 0 ;
+  margin: 0 ;
 }
 
 li {
-  list-style: none !important;
+  list-style: none ;
 }
 
 .link-btn {
   background: $rojo;
-  /*             */
-  width: 120px !important;
+  // width: 120px ;
   text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
   border-radius: 7px;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   -ms-border-radius: 7px;
   -o-border-radius: 7px;
-  a {
-    padding: 10px; 
-  }
+  padding: 10px; 
+  
 }
 
 
 .btn-inhabi{
-  width: 120px !important;
-  height: 40px;
+  // width: 120px;
   text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background: $grisClaro;
-  margin-top: 8px;
-
+  padding: 10px;
   border-radius: 7px;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
