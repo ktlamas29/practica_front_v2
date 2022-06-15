@@ -1,0 +1,82 @@
+@use "sass:math";
+
+
+/*                             VARIBLES                                     */
+
+
+/*          COLORES         */
+$grisOs:#262626;
+$grisClaro:#404040;
+$blanco:#ffffff;
+$rojo:#A6242F;
+$negro:#000000;
+// $gradiente:;
+$background-old-browser: #12c2e9;  /* fallback for old browsers */
+$background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+$background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+/*          FUENTES          */
+
+/*      MONTSERRAT     */
+$montserratBold:"montserratBold";
+$montserratBoldItalic:"montserratBoldItalic";
+$montserrathin-100:"montserrathin-100";
+$montserrathinItalic-100:"montserrathinItalic-100";
+$montserrattExtraLight-200:"montserrattExtraLight-200";
+$montserrattExtraLight200Italic-200:"montserrattExtraLightItalic-200";
+$montserrattLight-300:"montserrattLight-300";
+$montserratLightItalic-300:"montserratLightItalic-300";
+$montserratRegular-400:"montserratRegular-400";
+$montserratRegularItalic-400:"montserratRegularItalic-400";
+$montserratMedium-500:"montserratMedium-500";
+$montserratMediumItalic-500:"montserratMediumItalic-500";
+$montserratSemiBold-600:"montserratSemiBold-600";
+$montserratSemiBoldItalic-600:"montserratSemiBoldItalic-600";
+$montserratExtraBold-800:"montserratExtraBold-800";
+$montserratExtraBoldItalic-800:"montserratExtraBoldItalic-800";
+$montserratBlack-900:"montserratBlack-900";
+$montserratBlackItalic-900:"montserratBlackItalic-900";
+
+
+
+/*      LORA     */
+$loraRegular-400:"loraRegular-400";
+$loraRegularItalic-400:"loraRegularItalic-400";
+$loraMedium:"loraMedium";
+$loraMediumItalic:"loraMediumItalic";
+$loraSemiBold-600:"loraSemiBold-600";
+$loraSemiBoldItalic-600:"loraSemiBoldItalic-600";
+$loraBold-700:"loraBold-700";
+$loraBoldItalic-700:"loraBoldItalic-700";
+
+
+
+/*          Función que convierte pixeles en rem       */
+@function rem($pixels, $context: $baseFontSize) {
+    @if (unitless($pixels)) {
+      $pixels: $pixels * 1px;
+    }
+  
+    @if (unitless($context)) {
+      $context: $context * 1px;
+    }
+  
+    @return math.div($pixels , $context) * 1rem;
+  }
+  
+  //base font size
+  $baseFontSize: 16px;
+  
+  // font sizes
+  $font-10: rem(10);
+  $font-11: rem(11);
+
+  $font-14: rem(14);
+  $font-16: rem(16);
+
+  $font-24: rem(24);
+  $font-28: rem(28);
+
+

@@ -1,0 +1,72 @@
+body {
+  font-family: $montserratRegular-400;
+  background: $negro !important;
+}
+
+h1 {
+  color: $rojo !important;
+  font-family: $montserratSemiBold-600 !important;
+  font-size: $font-28 !important;
+}
+
+h2 {
+  font-size: $font-24 !important;
+}
+
+p {
+  color: $blanco !important;
+  font-size: $font-16 !important;
+  font-family: $loraRegular-400 !important;
+}
+
+a {
+  text-decoration: none !important;
+  font-size: $font-14 !important;
+  color: $blanco !important;
+}
+
+ul {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+li {
+  list-style: none !important;
+}
+
+.link-btn {
+  background: $rojo;
+  /*             */
+  width: 120px !important;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  a {
+    padding: 10px; 
+  }
+}
+
+
+.btn-inhabi{
+  width: 120px !important;
+  height: 40px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $grisClaro;
+  margin-top: 8px;
+
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
