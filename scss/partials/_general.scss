@@ -44,6 +44,16 @@ li {
   -ms-border-radius: 7px;
   -o-border-radius: 7px;
   padding: 10px; 
+
+  
+  &:hover{
+  background: $gradiente-old-browser;
+  background: $gradiente-webkit;
+  background: $gradientelinear-gradi;
+  color: $blanco;
+  
+  
+  }
   
 }
 
@@ -58,4 +68,11 @@ li {
   -moz-border-radius: 7px;
   -ms-border-radius: 7px;
   -o-border-radius: 7px;
+
+  &:hover{
+    background: rgb(16, 16, 16);
+    color: aqua;
+
+  }
 }
+
