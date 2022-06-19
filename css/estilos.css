@@ -188,6 +188,7 @@
 /* fallback for old browsers */
 /* Chrome 10-25, Safari 5.1-6 */
 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*          Rutas           */
 /*          FUENTES          */
 /*      MONTSERRAT     */
 /*      LORA     */
@@ -258,6 +259,18 @@ li {
 .btn-inhabi:hover {
   background: #101010;
   color: aqua;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  border: none;
+  object-fit: cover;
+}
+
+.header-main {
+  background: blue;
+  display: block;
 }
 
 h1 {
